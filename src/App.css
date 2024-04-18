@@ -1,3 +1,4 @@
+/* Reset */
 * {
 	font-family: 'Inter', sans-serif;
 	box-sizing: border-box;
@@ -5,6 +6,16 @@
 	padding: 0;
 }
 
+/* Body */
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Navbar */
 .navbar,
 .navbar-logo {
 	display: flex;
@@ -15,6 +26,7 @@
 .navbar {
 	background: #21222a;
 	padding: 2rem;
+	height: 6rem;
 }
 
 .navbar-logo-image {
@@ -26,11 +38,35 @@
 .navbar-logo-text {
 	color: #60dbfb;
 	font-size: 1.4rem;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .navbar-title {
 	color: #deebf8;
 	font-size: 1rem;
 	font-weight: 500;
+}
+
+/* Main */
+main {
+	background: #282d35;
+	color: #ffffff;
+	height: 34rem;
+}
+
+.main-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	padding: 2rem;
+	padding-top: 4rem;
+}
+
+.main-list {
+	font-size: 1.2rem;
+	font-weight: 300;
+	padding-left: 4rem;
+}
+
+.main-list-item {
+	padding: 0.7rem;
 }
