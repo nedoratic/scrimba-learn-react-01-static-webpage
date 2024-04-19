@@ -69,4 +69,10 @@ main {
 
 .main-list-item {
 	padding: 0.7rem;
+	max-width: 80%;
+}
+
+.main-list-item::marker {
+	color: #61dafb;
+	font-size: 1.4rem;
 }
