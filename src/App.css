@@ -52,6 +52,10 @@ main {
 	background: #282d35;
 	color: #ffffff;
 	height: 34rem;
+	background-image: url(./assets/react.svg);
+	background-size: 20rem;
+	background-repeat: no-repeat;
+	background-position: 152% center;
 }
 
 .main-title {
